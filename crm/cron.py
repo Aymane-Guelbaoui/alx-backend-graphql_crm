@@ -5,3 +5,4 @@ def log_crm_heartbeat():
     with open("/tmp/crm_heartbeat_log.txt", "a") as f:
         f.write(f"{timestamp} CRM is alive\n")
 from gql.transport.requests import RequestsHTTPTransport", "from gql import", "gql", "Client"
+"/tmp/low_stock_updates_log.txt", "updateLowStockProducts"
